@@ -33,6 +33,8 @@ Optionally, store the entered data in a structured format like a CSV file for fu
 2. Successful Registration: Upon successful validation and form submission, a confirmation message like "Registration Successful" is displayed to the user. The data is saved (either to a file or a database).
 3. Error Messages: If validation fails (e.g., missing or incorrect data), appropriate error messages are displayed, guiding the user on what needs to be corrected.
 4. Stored Data: If the data is saved to a file or database, the output includes the saved entries, which can be accessed for further use.
+
+![Image](https://github.com/user-attachments/assets/6ca11cd1-7b75-4de9-bb23-5d1a12135922)
    
 ## Features:
 This section describes the main functionalities and features of your registration form:
