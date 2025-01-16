@@ -9,23 +9,23 @@ The main window is created, which contains fields such as Name, Email, Phone Num
 2. User Input:Users are prompted to enter their information into the respective fields.
 The input fields are validated in real-time (e.g., checking that the email follows a proper format, phone number is numeric, etc.).
 
-3.Data Validation:Form Validation:
-On pressing the "Submit" button, the system performs several validation checks: Ensure that all fields are filled out.
+3. Data Validation:Form Validation:
+   On pressing the "Submit" button, the system performs several validation checks: Ensure that all fields are filled out.
 Validate that the email format is correct using regular expressions.
 Confirm that the phone number is numeric and follows a specific format.
 
-4. Error Handling: If any field is invalid, an error message is displayed near the corresponding field.
+5. Error Handling: If any field is invalid, an error message is displayed near the corresponding field.
 
-5. Data Submission: Once the data passes validation, the form can:
+6. Data Submission: Once the data passes validation, the form can:
 Save the information locally (e.g., in a CSV or text file) or in a database.
 Display a confirmation message (e.g., "Registration Successful") or clear the fields for the next user.
 
-6. Post-Submission Actions:
+7. Post-Submission Actions:
 After submitting, the system may:Close the form and exit the application.
 Offer the option to reset the form and input new data.
 Optionally, store the entered data in a structured format like a CSV file for future reference or processing.
 
-7. Exception Handling: If unexpected errors occur during any step (e.g., file write errors, incorrect data types), the application catches these exceptions and informs the user with a descriptive error message.
+8. Exception Handling: If unexpected errors occur during any step (e.g., file write errors, incorrect data types), the application catches these exceptions and informs the user with a descriptive error message.
 
 
 ## Output:
@@ -46,4 +46,4 @@ This section describes the main functionalities and features of your registratio
 ## Conclusion:
 1. The Python GUI Registration Form project successfully demonstrates the creation of an interactive and user-friendly registration form with essential data validation. Using Python and [insert GUI framework], the application ensures that users can input their details correctly while receiving real-time feedback on any errors. The project provides a solid foundation for future development, with the potential to integrate features like database storage, email notifications, and enhanced security measures.
 
-2.This project not only highlights the use of Python for building desktop applications but also showcases best practices in handling user inputs, validating data, and ensuring a seamless user experience. It serves as a stepping stone toward more complex applications and further exploration of GUI-based development.
+2. This project not only highlights the use of Python for building desktop applications but also showcases best practices in handling user inputs, validating data, and ensuring a seamless user experience. It serves as a stepping stone toward more complex applications and further exploration of GUI-based development.
